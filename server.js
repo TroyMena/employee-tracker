@@ -9,7 +9,7 @@ app.use(express.json());
 const db = mysql.createConnection({
  host: "127.0.0.1",
  dialect: 'mysql',
- port: 8889,
+ port: 3306,
  dialectOptions: {
  decimalNumbers: true,
    },
